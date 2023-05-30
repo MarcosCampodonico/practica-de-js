@@ -9,5 +9,13 @@ nombre.addEventListener("input", ()=>{
         nombre.className ="blanco";
     }
 });
+boton.addEventListener("click", ()=>{
+    alert(`Bienvenido`)
+})
 
-
+boton.addEventListener("mouseenter", ()=>{
+    boton.style.background = "red"
+})
+boton.addEventListener("mouseleave", ()=>{
+    boton.style.background = "purple"
+})
