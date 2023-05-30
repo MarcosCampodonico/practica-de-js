@@ -78,7 +78,7 @@ transform: rotateY(360deg);
     color: red;
 }
 .blanco{
-    color: wheat;
+    color: black;
 }
 .enviar:hover{
     transition: all 5s;
