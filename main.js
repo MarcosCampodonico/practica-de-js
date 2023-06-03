@@ -28,6 +28,7 @@ let n2 = prompt("ingrese el siguiente producto")
 const productos = [
     {id: 1, producto: n1},
     {id: 2, producto: n2},
- ,
 ]
 localStorage.setItem("carrito", JSON.stringify(productos));
+
+console.log(JSON.parse(productos))  
