@@ -9,7 +9,14 @@ let nombre=document.getElementById("cuadro")
      }
 });
 boton.addEventListener("click", ()=>{
-    alert(`Bienvenido`)
+    Swal.fire({
+        position: 'top-center',
+        icon: 'success',
+        title: 'Se ha logueado con exito',
+        showConfirmButton: false,
+        timer: 1500
+        })
+    window.location.href="masacorporal.html"
 });
 
  boton.addEventListener("mouseenter", ()=>{
@@ -18,8 +25,6 @@ boton.addEventListener("click", ()=>{
  boton.addEventListener("mouseleave", ()=>{
      boton.style.background = "purple"
 });
-
-
 
 let formulario = document.getElementById("form");
 const clientes = [];
@@ -34,8 +39,6 @@ form.addEventListener('submit', function (event){
     clientes.push(cliente);
     console.log(cliente);
     console.log(clientes);
-
     form.reset();
-
-
 })
+

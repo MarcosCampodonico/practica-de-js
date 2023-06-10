@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./corporal.css">
+</head>
+<body class="productos">
+    <div class="calculator">
+        <h2>Calculadora de indice de masa corporal</h2>
+        <div>
+          <label for="weight">Peso (kg):</label>
+          <input type="number" id="weight" placeholder="Ingrese su peso">
+        </div>
+        <div>
+          <label for="height">Altura (cm):</label>
+          <input type="number" id="height" placeholder="Ingrese su altura">
+        </div>
+        <button id="calculateBtn">Calcular IMC</button>
+        <div id="result"></div>
+        
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./imc.js"></script>
+</body>
+</html>
