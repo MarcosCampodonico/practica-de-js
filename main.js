@@ -42,3 +42,6 @@ form.addEventListener('submit', function (event){
     form.reset();
 })
 
+fetch("./data.json")
+.then(response => response.json())
+.then(data => console.log(data));
